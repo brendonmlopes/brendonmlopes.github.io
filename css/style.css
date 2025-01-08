@@ -4,7 +4,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.1)
     ),
-    url('https://s2-receitas.glbimg.com/jK-kMTPr3Yzex9P93zqt4DSsFXo=/0x0:1366x768/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/z/0/RsipkzTEu0Y1PGiavCpA/pudim-de-leite-condensado.jpg') center/cover no-repeat;
+    url('../img/project3.png') center/cover no-repeat;
   /* If you don't want the pudding background,
      pick something else or a solid color! */
   height: 80vh;
@@ -12,6 +12,16 @@
   /* filter:blur(1px); */
 }
 
+.card:hover{
+  background-color: lightgray;
+}
+
+#sketch-container-a, #sketch-container-b {
+        border: 1px solid #ccc;
+        margin: 20px auto;
+        width: 90%;
+        max-width: 600px; /* limit how wide the canvas can get */
+      }
 /* Just some margin/padding tweaks */
 .section-title {
   margin-bottom: 1rem;

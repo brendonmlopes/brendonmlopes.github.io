@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- p5.js and p5.sound -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Creative Animations | Brendon</title>
+    <!-- Bootstrap 5 (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <strong>Brendon</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Project 3: Creative Animations</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <!-- p5.js Sketch Container -->
+            <div
+              id="p5-container-a"
+              class="border rounded shadow mb-4"
+              style="width: 100%; min-height: 400px;"
+            ></div>
+            <div
+              id="p5-container-b"
+              class="border rounded shadow mb-4"
+              style="width: 100%; min-height: 400px;"
+            ></div>
+            <div
+              id="p5-container-c"
+              class="border rounded shadow mb-4"
+              style="width: 100%; min-height: 400px;"
+            ></div>
+
+            <p>
+              <strong>Creative Animations</strong> is an interactive
+              collection of <strong>p5.js</strong> sketches that blend
+              engineering concepts with artistic expression. Through
+              generative art, physics simulations, and real-time user
+              interactions, this project demonstrates my passion for
+              combining code, creativity, and problem-solving.
+            </p>
+            <p>
+              From swirling particle systems that emulate fluid flow
+              to dynamic shape morphing controlled by user input,
+              each sketch aims to showcase both the imaginative and
+              technical sides of programming.
+            </p>
+            <ul>
+              <li><strong>Technologies:</strong> JavaScript, p5.js, HTML/CSS</li>
+              <li><strong>Focus:</strong> Animations, Interactive Graphics, Creative Coding</li>
+            </ul>
+            <p>
+              Explore more of my p5.js experiments or collaborate by
+              <a href="mailto:brendonmaial@poli.ufrj.br">contacting me</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; <span id="year"></span> Brendon.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <!-- Inline JS just to update footer year -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- p5.js Sketch External File -->
+    <script src="sketch1.js"></script>
+    <script src="sketch2.js"></script>
+    <script src="sketch3.js"></script>
+    <script>
+      new p5(sSpiral);
+    </script>
+    <script>
+      new p5(sNoise);
+    </script>
+  </body>
+</html>

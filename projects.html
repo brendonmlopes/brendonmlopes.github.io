@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Projects | Brendon</title>
+    <!-- Bootstrap 5 (CDN) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <strong>Brendon</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <!-- Link back to Home/About -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <!-- Current Page: Projects -->
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Projects Overview Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 alert alert-success">My Coding Projects</h2>
+        <p class="text-center mb-4">Some of my personal and professional projects</p>
+        <div class="row">
+          <!-- Project 1 Overview -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow">
+              <img
+                src="img/project1.png"
+                class="card-img-top"
+                alt="Project 1 Screenshot"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 1: Pudding Finder</h5>
+                <p class="card-text">
+                  A web application that helps users find the best pudding
+                  flavors around town!
+                </p>
+                <a href="project1.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 Overview -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow">
+              <img
+                src="img/project2.png"
+                class="card-img-top"
+                alt="Project 2 Screenshot"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 2: AI Data Lab</h5>
+                <p class="card-text">
+                  Advanced data analytics project using AI at NIDF,
+                  focused on fluid dynamics research.
+                </p>
+                <a href="project2.html" class="btn btn-primary"
+                  >View Details</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 Overview -->
+          <div class="col-md-4 mb-4">
+            <div class="card shadow">
+              <img
+                src="img/project3.png"
+                class="card-img-top"
+                alt="Project 3 Screenshot"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Project 3: Creative Animations</h5>
+                <p class="card-text">
+                  A showcase of p5.js animations, combining engineering
+                  concepts with artistic flair.
+                </p>
+                <a href="project3.html" class="btn btn-primary"
+                  >View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-0">
+          &copy; <span id="year"></span> Brendon.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <!-- Custom JS -->
+    <script>
+      // Update the footer year automatically
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
