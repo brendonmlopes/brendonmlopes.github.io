@@ -1,0 +1,22 @@
+/* Custom Styles for the Hero Section */
+.hero {
+  background: radial-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url('https://s2-receitas.glbimg.com/jK-kMTPr3Yzex9P93zqt4DSsFXo=/0x0:1366x768/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/z/0/RsipkzTEu0Y1PGiavCpA/pudim-de-leite-condensado.jpg') center/cover no-repeat;
+  /* If you don't want the pudding background,
+     pick something else or a solid color! */
+  height: 80vh;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  /* filter:blur(1px); */
+}
+
+/* Just some margin/padding tweaks */
+.section-title {
+  margin-bottom: 1rem;
+}
+
+.card {
+  margin-top: 1rem;
+}
