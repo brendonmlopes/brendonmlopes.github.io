@@ -26,11 +26,11 @@ const sSpiral = (p) => {
   };
 
   p.draw = () => {
-    p.background(220);
+    p.background(0);
     // Center the drawing
     p.translate(p.width / 2, p.height / 2);
     p.noFill();
-
+    p.stroke(50,140,50);
     // Loop from 0 to lim, stepping by res
     for (let i = 0; i <= lim; i += res) {
       // Compute x, y, z from your parametric equations
