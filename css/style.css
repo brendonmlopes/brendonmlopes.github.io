@@ -5,8 +5,7 @@
       rgba(0, 0, 0, 0.1)
     ),
     url('../img/project3.png') center/cover no-repeat;
-  /* If you don't want the pudding background,
-     pick something else or a solid color! */
+
   height: 80vh;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
   /* filter:blur(1px); */
